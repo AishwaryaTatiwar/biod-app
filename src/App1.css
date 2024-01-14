@@ -1,0 +1,38 @@
+.head{
+    color: blue;
+   align-items: center;
+}
+.sub-head{
+    
+    font-family: monospace;
+}
+.run{
+font-size: 50px;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    background-color: #b5f4f8;
+    margin: 20px;
+}
+.container{
+    display: flex;
+    gap: 170px;
+}
+.animate{
+    background-color: #deaeae;
+    animation:Aishwarya 1s ease-in-out 1 forwards;
+}
+@keyframes Aishwarya{
+    from{
+        width:300px;
+    }
+    to{
+        width: 1350px;
+    }
+}
+.whole-container{
+    padding: 2px;
+    background-color: #b5f4f8;
+}
+
